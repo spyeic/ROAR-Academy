@@ -10,5 +10,7 @@ def swap_cols(M, a, b):
 
 matrix = np.array([[1, 2, 3], [4, 5, 6]])
 print(matrix)
+swap_rows(matrix, 0, 1)
+print(matrix)
 swap_cols(matrix, 0, 1)
 print(matrix)
